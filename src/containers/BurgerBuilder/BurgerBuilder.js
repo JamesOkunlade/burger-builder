@@ -10,12 +10,12 @@ class BurgerBuilder extends Component {
     this.state = {
       count: 0
     }
+  }
 
-    this.handleClick = () => {
-      this.setState({
-        count: this.state.count + 1
-      })
-    }
+  handleClick = () => {
+    this.setState({
+      count: this.state.count + 1
+    })
   }
     render () {
       let {count} = this.state;
